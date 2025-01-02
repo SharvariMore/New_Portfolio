@@ -42,3 +42,8 @@
     @apply text-accent;
   }
 }
+
+.name-logo {
+  font-family: 'Comic Sans MS', 'Patrick Hand', cursive;
+  font-size: 32px;
+}

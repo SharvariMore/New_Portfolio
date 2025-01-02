@@ -10,6 +10,8 @@ import {
   FiTag,
   FiMail,
   FiMapPin,
+  FiLinkedin,
+  FiFacebook
 } from 'react-icons/fi';
 
 // companies icons
@@ -36,6 +38,14 @@ import SkillImg5 from './assets/img/skills/nextjs.png';
 import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/git.png';
 import SkillImg8 from './assets/img/skills/figma.png';
+import SkillImg9 from './assets/img/skills/angular.png';
+import SkillImg10 from './assets/img/skills/sql.png';
+import SkillImg11 from './assets/img/skills/mongodb.png';
+import SkillImg12 from './assets/img/skills/oracle.png';
+import SkillImg13 from './assets/img/skills/microsoft.png';
+import SkillImg14 from './assets/img/skills/aws.png';
+import SkillImg15 from './assets/img/skills/net.png';
+import SkillImg16 from './assets/img/skills/typescript.png';
 
 // testimonial images
 import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
@@ -53,17 +63,21 @@ export const navigation = [
     href: 'about',
   },
   {
-    name: 'portfolio',
-    href: 'portfolio',
+    name: 'projects',
+    href: 'projects',
+  },
+  {
+    name: 'skills',
+    href: 'skills',
   },
   {
     name: 'services',
     href: 'services',
   },
-  {
-    name: 'testimonials',
-    href: 'testimonials',
-  },
+  // {
+  //   name: 'testimonials',
+  //   href: 'testimonials',
+  // },
   {
     name: 'contact',
     href: 'contact',
@@ -73,20 +87,20 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
-    href: '',
-  },
-  {
-    icon: <FiInstagram />,
-    href: '',
+    icon: <FiLinkedin />,
+    href: 'https://www.linkedin.com/in/sharvari-more/',
   },
   {
     icon: <FiGithub />,
-    href: '',
+    href: 'https://github.com/SharvariMore',
   },
   {
-    icon: <FiDribbble />,
-    href: '',
+    icon: <FiInstagram />,
+    href: 'https://www.instagram.com/sharvari_more_10/',
+  },
+  {
+    icon: <FiFacebook />,
+    href: 'https://www.facebook.com/',
   },
 ];
 
@@ -174,27 +188,67 @@ export const projectsNav = [
 export const skills = [
   {
     image: SkillImg1,
+    name: 'HTML',
   },
   {
     image: SkillImg2,
+    name: 'CSS',
   },
   {
     image: SkillImg3,
+    name: 'JavaScript',
   },
   {
     image: SkillImg4,
+    name: 'React',
   },
   {
     image: SkillImg5,
+    name: 'NextJs',
   },
   {
     image: SkillImg6,
+    name: 'NodeJs',
   },
   {
     image: SkillImg7,
+    name: 'Github',
   },
   {
     image: SkillImg8,
+    name: 'Figma',
+  },
+  {
+    image: SkillImg9,
+    name: 'Angular',
+  },
+  {
+    image: SkillImg10,
+    name: 'MySQL',
+  },
+  {
+    image: SkillImg11,
+    name: 'MongoDB',
+  },
+  {
+    image: SkillImg12,
+    name: 'Oracle',
+  },
+  {
+    image: SkillImg13,
+    name: 'Microsoft',
+  },
+  {
+    image: SkillImg14,
+    name: 'AWS',
+  },
+  {
+    image: SkillImg15,
+    name: 'ASP.NET',
+  },
+  {
+    image: SkillImg16,
+    name: 'TypeScript',
   },
 ];
 
@@ -202,27 +256,27 @@ export const skills = [
 export const services = [
   {
     icon: <FiLayout />,
-    name: 'Web Design',
+    name: 'UI Design',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'UI designer skilled in crafting visually stunning, responsive interfaces that elevate user experiences.',
   },
   {
     icon: <FiSettings />,
     name: 'Web Development',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'Building dynamic, interactive websites with modern frameworks to deliver custom functionality.',
   },
   {
     icon: <FiPenTool />,
-    name: 'Branding',
+    name: 'Version Control',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'Proficient in using Git for collaborative development, version tracking and precise project updates.',
   },
   {
     icon: <FiTag />,
     name: 'SEO',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'Optimizing websites with SEO best practices to enhance visibility and boost search engine rankings.',
   },
 ];
 
@@ -257,12 +311,12 @@ export const contact = [
     icon: <FiMail />,
     title: 'Have a question?',
     subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    description: 'Email me at sharvarimore90@gmail.com',
   },
   {
     icon: <FiMapPin />,
     title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
+    subtitle: 'Tampa, Florida',
     description: 'Serving clients worldwide',
   },
 ];

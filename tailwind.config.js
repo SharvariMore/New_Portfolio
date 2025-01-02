@@ -24,6 +24,7 @@ module.exports = {
         services: 'url("/src/assets/img/outline-text/services.svg")',
         testimonials: 'url("/src/assets/img/outline-text/testimonials.svg")',
         contact: 'url("/src/assets/img/outline-text/contact.svg")',
+        skills: 'url("/src/assets/img/outline-text/skills.svg")',
       },
       colors: {
         primary: '#050402',
