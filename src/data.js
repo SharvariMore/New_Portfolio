@@ -22,12 +22,18 @@ import BehanceBrandIcon from './assets/img/brands/behance.png';
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project1 from './assets/img/projects/figma_carousel.png';
+import Project2 from './assets/img/projects/youtube_clone.png';
+import Project3 from './assets/img/projects/movie.png';
+import Project4 from './assets/img/projects/expense_tracker.png';
+import Project5 from './assets/img/projects/dashboard.png';
+import Project6 from './assets/img/projects/vikram_travels.png';
+import Project7 from './assets/img/projects/chat_app.png';
+import Project8 from './assets/img/projects/food_receipe.png';
+import Project9 from './assets/img/projects/tictac_game.png';
+import Project10 from './assets/img/projects/cafe_website.png';
+import Project11 from './assets/img/projects/hangman_game.png';
+import Project12 from './assets/img/projects/colorchange_game.png';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -63,8 +69,8 @@ export const navigation = [
     href: 'about',
   },
   {
-    name: 'projects',
-    href: 'projects',
+    name: 'portfolio',
+    href: 'portfolio',
   },
   {
     name: 'skills',
@@ -133,38 +139,98 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'project name 1',
+    name: 'Figma Carousel',
     category: 'UI/UX design',
+    url: 'https://github.com/SharvariMore/Figma-Carousel',
+    description: 'A Figma carousel website to navigate between 3 different types of drinks',
   },
   {
     id: '2',
     image: Project2,
-    name: 'project name 2',
+    name: 'YouTube Clone',
     category: 'web development',
+    url: 'https://github.com/SharvariMore/Youtube-Clone',
+    description: 'Website features the UI development of YouTube using HTML, CSS and JavaScript',
   },
   {
     id: '3',
     image: Project3,
-    name: 'project name 3',
-    category: 'UI/UX design',
+    name: 'Movie App',
+    category: 'web development',
+    url: 'https://github.com/SharvariMore/Movie-app',
+    description: 'Dynamic React app displaying list of movies with their rating through API intgeration',
   },
   {
     id: '4',
     image: Project4,
-    name: 'project name 4',
-    category: 'branding',
+    name: 'Expense Tracker',
+    category: 'web development',
+    url: 'https://sharvari-expense-tracking.onrender.com/',
+    description: 'Website features finance management alonwgith dashboard for transactions',
   },
   {
     id: '5',
     image: Project5,
-    name: 'project name 5',
+    name: 'Dashboard',
     category: 'web development',
+    url: 'https://github.com/SharvariMore/React_Dashboard',
+    description: 'Dashboard in React displays various charts by SyncFusion for e-commerce website',
   },
   {
     id: '6',
     image: Project6,
-    name: 'project name 6',
+    name: 'Vikram Travels',
+    category: 'branding',
+    url: 'https://vikram-travels.netlify.app/',
+    description: 'Holistic React website efficiently managing cab services in Maharashtra, India',
+  },
+  {
+    id: '7',
+    image: Project7,
+    name: 'NodeJS Chat App',
     category: 'web development',
+    url: 'https://github.com/SharvariMore/NodeJS-Chat-App',
+    description: 'Real time chat app featuring various features utilising React as UI and NodeJS at backend',
+  },
+  {
+    id: '8',
+    image: Project8,
+    name: 'Food Recipe App',
+    category: 'web development',
+    url: 'https://flavor-fiesta.netlify.app/',
+    description: 'Inclusive React app displaying food recipes for selected dish through API integration',
+  },
+  {
+    id: '9',
+    image: Project9,
+    name: 'Tic Tac Toe Game',
+    category: 'gaming',
+    url: 'https://github.com/SharvariMore/Tic-Tac-Toe-Game',
+    description: 'JS Game declares "X" or "O" as winner when 3 similar match else declare tie when filled',
+  },
+  {
+    id: '10',
+    image: Project10,
+    name: 'Cafe Website',
+    category: 'UI/UX design',
+    url: 'https://github.com/SharvariMore/Simple-website',
+    description: 'Cafe Website showcasing HTML and CSS basics alongwith responsiveness',
+  },
+  {
+    id: '11',
+    image: Project11,
+    name: 'Hanging Man Game',
+    category: 'gaming',
+    url: 'https://github.com/SharvariMore/HangingMan-Game-App',
+    description: 'React Game challenge to guess hidden word with wrong letters creating a HangingMan',
+  },
+  {
+    id: '12',
+    image: Project12,
+    name: 'Color Change Game',
+    category: 'gaming',
+    url: 'https://github.com/SharvariMore/Color-Change-React-app',
+    description: 'Gaming app built on React to display color name & hex value in square with toggle option',
   },
 ];
 
@@ -181,6 +247,9 @@ export const projectsNav = [
   },
   {
     name: 'branding',
+  },
+  {
+    name: 'gaming',
   },
 ];
 
