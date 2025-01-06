@@ -1,10 +1,6 @@
 import React from "react";
 
-<<<<<<< HEAD
 import MyImg from "../assets/img/side.png";
-=======
-import MyImg from "../assets/img/banner-woman2.webp";
->>>>>>> b1d6cac4e74c97b2cbf94fdb44f4a403bade85e2
 
 const Hero = () => {
   return (
