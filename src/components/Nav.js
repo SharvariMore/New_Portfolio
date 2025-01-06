@@ -9,7 +9,7 @@ const Nav = () => {
         {navigation.map((item, index) => {
           return (
             <li
-              className="text-white hover:text-accent cursor-pointer"
+              className="text-white hover:text-accent cursor-pointer text-lg"
               key={index}
             >
               <Link

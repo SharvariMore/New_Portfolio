@@ -11,10 +11,12 @@ const Portfolio = () => {
             My Latest Work
           </h2>
           <p className="subtitle">
-            Experienced UI designer skilled in crafting responsive, visually
-            stunning interfaces that enhance user experiences. <br /> Proficient
-            in React, NodeJS, ExpressJS, and Git for cutting-edge development
-            and seamless collaboration.
+            Expert in designing intuitive interfaces and
+            innovative website solutions using modern front-end and back-end
+            technologies.
+            <br /> Crafting compelling brand identities and immersive gaming
+            experiences, combining creative design with advanced development for
+            impactful results.
           </p>
         </div>
         <Projects />

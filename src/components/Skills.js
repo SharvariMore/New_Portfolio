@@ -11,14 +11,13 @@ const Skills = () => {
             My Skills
           </h2>
           <p className="subtitle">
-            Experienced UI designer skilled in crafting responsive, visually
-            stunning interfaces that enhance user experiences.
-            <br />
-            Proficient in React, NodeJS, ExpressJS, and Git for cutting-edge
-            development and seamless collaboration.
+            Proficient in React, Angular, Figma, and Git for seamless front-end
+            development and collaborative project delivery.
+            <br /> Skilled in backend technologies such as MySQL, Node.js,
+            MongoDB, and AWS cloud for advanced development.
           </p>
         </div>
-        <div className="grid grid-cols-8 md:grid-flow-row">
+        <div className="grid grid-cols-4 lg:grid-cols-8 md:grid-flow-row">
           {skills.map((skill, index) => {
             return (
               <div

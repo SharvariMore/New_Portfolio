@@ -10,11 +10,10 @@ const Services = () => {
             What I Do For Clients?
           </h2>
           <p className="subtitle">
-            Experienced UI designer skilled in crafting responsive, visually
-            stunning interfaces that enhance user experiences.
-            <br />
-            Proficient in React, NodeJS, ExpressJS, and Git for cutting-edge
-            development and seamless collaboration.
+            Crafting visually appealing, user-focused designs and building
+            high-performance websites tailored to your business needs. <br />
+            Utilizing Git for efficient version control and optimizing content
+            to boost SEO and site performance.
           </p>
         </div>
         <div className="grid lg:grid-cols-4 gap-8">

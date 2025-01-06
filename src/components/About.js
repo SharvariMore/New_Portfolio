@@ -56,23 +56,28 @@ const About = () => {
                 <div>
                   {/* <h3 className="text-xl font-semibold mb-4">Education</h3> */}
                   <div className="mb-4">
-                    <h4 className="font-bold text-lg">
+                  <div className="flex flex-col sm:flex-row justify-between items-center">
+                    <h4 className="font-bold text-lg sm:mb-0">
                       Masters' in Computer System Analysis
-                      <span className="text-md m-11 text-accent">
+                      </h4>
+                      <h4 className="text-lg ml-2 font-bold text-accent">
                         2023 - 2025
-                      </span>
-                    </h4>
+                      </h4>
+                    
+                    </div>
                     <p className="text-accent">University of South Florida</p>
                     <p>Tampa, Florida</p>
                     <p className="text-md text-gray-500">GPA: 3.9/4</p>
                   </div>
-                  <div>
-                    <h4 className="font-bold text-lg">
+                  <div className="mb-4">
+                  <div className="flex flex-col sm:flex-row justify-between items-center">
+                    <h4 className="font-bold text-lg sm:mb-0">
                       Bachelors' in Information Technology
-                      <span className="text-md m-11 text-accent">
+                      </h4>
+                      <h4 className="text-lg ml-2 font-bold text-accent">
                         2016 - 2020
-                      </span>
-                    </h4>
+                      </h4>
+                    </div>
                     <p className="text-accent">Pune University</p>
                     <p>Pune, India</p>
                     <p className="text-md text-gray-500">GPA: 3.3/4</p>
@@ -84,9 +89,9 @@ const About = () => {
                     3+ Year's Experience on UI Designing
                   </h3>
                   <div className="mb-4">
-                    <div className="flex justify-between items-center">
+                    <div className="flex flex-col sm:flex-row justify-between items-center">
                       <h4
-                        className="font-bold text-lg"
+                        className="font-bold text-lg sm:mb-0"
                         data-tooltip-id="skills"
                         data-tooltip-content="Angular, TS, ASP.NET, Oracle"
                         data-tooltip-place="top"
@@ -102,9 +107,9 @@ const About = () => {
                   </div>
                   <div className="mb-4">
                     
-                    <div className="flex justify-between items-center">
+                    <div className="flex flex-col sm:flex-row justify-between items-center">
                       <h4
-                        className="font-bold text-lg"
+                        className="font-bold text-lg sm:mb-0"
                         data-tooltip-id="skills"
                         data-tooltip-content="HTML, CSS, JS, React, GIT, API"
                         data-tooltip-place="top"
@@ -120,9 +125,9 @@ const About = () => {
                     <p className="text-md text-gray-500">Pune, India</p>
                   </div>
                   <div className="mb-4">
-                    <div className="flex justify-between items-center">
+                    <div className="flex flex-col sm:flex-row justify-between items-center">
                       <h4
-                        className="font-bold text-lg"
+                        className="font-bold text-lg sm:mb-0"
                         data-tooltip-id="skills"
                         data-tooltip-content="Microsoft, AWS, IAM"
                         data-tooltip-place="top"
