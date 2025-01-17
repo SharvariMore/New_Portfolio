@@ -34,6 +34,10 @@ import Project9 from './assets/img/projects/tictac_game.png';
 import Project10 from './assets/img/projects/cafe_website.png';
 import Project11 from './assets/img/projects/hangman_game.png';
 import Project12 from './assets/img/projects/colorchange_game.png';
+import Project13 from './assets/img/projects/home_service.png';
+import Project14 from './assets/img/projects/budget_planner.png';
+import Project15 from './assets/img/projects/surveybull.png';
+
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -231,6 +235,30 @@ export const projectsData = [
     category: 'gaming',
     url: 'https://github.com/SharvariMore/Color-Change-React-app',
     description: 'Gaming app built on React to display color name & hex value in square with toggle option',
+  },
+  {
+    id: '13',
+    image: Project13,
+    name: 'Home Service App',
+    category: 'web development',
+    url: 'https://home-service-app-drab.vercel.app',
+    description: 'Next.js application for booking home services, utilizing Hygraph CMS for API fetching and Descope for authentication',
+  },
+  {
+    id: '14',
+    image: Project14,
+    name: 'Budget Planner',
+    category: 'web development',
+    url: 'https://budget-planner-fxfv.onrender.com',
+    description: 'Angular-based budgeting website for managing income and expenses, featuring a dashboard to track to-do transactions for selected months and review past transaction histories',
+  },
+  {
+    id: '15',
+    image: Project15,
+    name: 'Survey Bull',
+    category: 'branding',
+    url: 'https://github.com/SharvariMore/SurveyBull',
+    description: 'Survey Platform for designing various surveys using MVC Framework and Data Visualisation Charts',
   },
 ];
 
