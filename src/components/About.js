@@ -86,7 +86,7 @@ const About = () => {
               ) : (
                 <div>
                   <h3 className="text-xl font-semibold mb-4">
-                    3+ Year's Experience on UI Designing
+                    3+ Year's Experience in Full-Stack Development
                   </h3>
                   <div className="mb-4">
                     <div className="flex flex-col sm:flex-row justify-between items-center">
