@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import MyImg from "../assets/img/side.png";
-import Resume from "../assets/img/Sharvari More - Resume (New).pdf";
+import Resume from "../assets/img/Sharvari More - Resume (Best).pdf";
 
 const Hero = () => {
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -62,7 +62,7 @@ const Hero = () => {
               contribute expertise to innovative projects.
             </p>
             <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all"
-             onClick={() => window.open(require("../assets/img/Sharvari More - Resume (New).pdf"), "_blank")}>
+             onClick={() => window.open(require("../assets/img/Sharvari More - Resume (Best).pdf"), "_blank")}>
               Work With Me
             </button>
           </div>
