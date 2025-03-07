@@ -93,10 +93,10 @@ const About = () => {
                       <h4
                         className="font-bold text-lg sm:mb-0"
                         data-tooltip-id="skills"
-                        data-tooltip-content="Angular, TS, ASP.NET, Oracle"
+                        data-tooltip-content="Angular, TS, ASP.NET, Oracle, Excel"
                         data-tooltip-place="top"
                       >
-                        Student Assistant (PCP)
+                        Student Intern (Full Stack Developer)
                       </h4>
                       <h4 className="text-lg font-bold text-accent">
                         2024 - 2025
@@ -111,7 +111,7 @@ const About = () => {
                       <h4
                         className="font-bold text-lg sm:mb-0"
                         data-tooltip-id="skills"
-                        data-tooltip-content="HTML, CSS, JS, React, GIT, API"
+                        data-tooltip-content="HTML, CSS, JS, React, Figma, GIT, API"
                         data-tooltip-place="top"
                       >
                         Frontend Developer (React)

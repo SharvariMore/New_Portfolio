@@ -63,7 +63,7 @@ const Hero = () => {
             </p>
             <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all"
              onClick={() => window.open(require("../assets/img/Sharvari More - Resume (Best).pdf"), "_blank")}>
-              Work With Me
+              View My Resume
             </button>
           </div>
           <div className="hidden lg:flex flex-1 justify-end items-end h-full">
