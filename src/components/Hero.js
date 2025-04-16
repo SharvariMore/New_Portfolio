@@ -7,7 +7,7 @@ const Hero = () => {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const texts = [
     "I'm a Frontend <br /> Developer.",
-    "I'm a UI/UX <br /> Designer.",
+    "I'm a Software <br /> Engineer.",
     "I'm a Full-Stack <br />  Developer.",
   ];
 
@@ -58,7 +58,7 @@ const Hero = () => {
             <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">
               Passionate Frontend Developer skilled in designing dynamic
               websites, optimizing email services, and enhancing client
-              experiences. Pursuing a Master's in Business Analytics, eager to
+              experiences. Pursuing a Master's in Computer System Analysis, eager to
               contribute expertise to innovative projects.
             </p>
             <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all"
