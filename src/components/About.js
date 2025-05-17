@@ -58,7 +58,7 @@ const About = () => {
                   <div className="mb-4">
                   <div className="flex flex-col sm:flex-row justify-between items-center">
                     <h4 className="font-bold text-lg sm:mb-0">
-                      Masters' in Computer System Analysis
+                      Masters' in Business Analytics and Information Systems
                       </h4>
                       <h4 className="text-lg ml-2 font-bold text-accent">
                         2023 - 2025
