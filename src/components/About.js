@@ -96,7 +96,7 @@ const About = () => {
                         data-tooltip-content="Angular, TS, ASP.NET, Oracle, Excel"
                         data-tooltip-place="top"
                       >
-                        Student Intern (Full Stack Developer)
+                        Software Development Intern
                       </h4>
                       <h4 className="text-lg font-bold text-accent">
                         2024 - 2025
