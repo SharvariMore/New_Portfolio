@@ -110,7 +110,7 @@ export const social = [
   },
   {
     icon: <FiFacebook />,
-    href: 'https://www.facebook.com/',
+    href: 'https://www.facebook.com/sharvari.more.12',
   },
 ];
 
