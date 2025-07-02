@@ -413,7 +413,7 @@ export const contact = [
   {
     icon: <FiMapPin />,
     title: 'Current Location',
-    subtitle: 'Tampa, Florida',
+    subtitle: 'Santa Clara, California',
     description: 'Serving clients worldwide',
   },
 ];
