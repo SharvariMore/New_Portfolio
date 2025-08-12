@@ -86,7 +86,7 @@ const About = () => {
               ) : (
                 <div>
                   <h3 className="text-xl font-semibold mb-4">
-                    3+ Year's Experience in Full-Stack Development
+                    4+ Year's Experience in Full-Stack Development
                   </h3>
                   <div className="mb-4">
                     <div className="flex flex-col sm:flex-row justify-between items-center">
@@ -96,7 +96,7 @@ const About = () => {
                         data-tooltip-content="Angular, TS, ASP.NET, Oracle, Excel"
                         data-tooltip-place="top"
                       >
-                        Software Development Intern
+                        Full Stack Developer Intern
                       </h4>
                       <h4 className="text-lg font-bold text-accent">
                         2024 - 2025
