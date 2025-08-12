@@ -111,7 +111,7 @@ const About = () => {
                       <h4
                         className="font-bold text-lg sm:mb-0"
                         data-tooltip-id="skills"
-                        data-tooltip-content="HTML, CSS, JS, React, Figma, GIT, API"
+                        data-tooltip-content="HTML, CSS, JS, React, Figma, GIT, API, Postman"
                         data-tooltip-place="top"
                       >
                         Frontend Developer (React)
@@ -129,7 +129,7 @@ const About = () => {
                       <h4
                         className="font-bold text-lg sm:mb-0"
                         data-tooltip-id="skills"
-                        data-tooltip-content="Microsoft, AWS, IAM"
+                        data-tooltip-content="Microsoft, AWS, Java, Jest"
                         data-tooltip-place="top"
                       >
                         Software Engineer
