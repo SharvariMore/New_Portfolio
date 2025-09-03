@@ -66,7 +66,7 @@ const About = () => {
                     
                     </div>
                     <p className="text-accent">University of South Florida</p>
-                    <p>Tampa, Florida</p>
+                    <p>Austin, Texas</p>
                     <p className="text-md text-gray-500">GPA: 3.9/4</p>
                   </div>
                   <div className="mb-4">
