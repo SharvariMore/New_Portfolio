@@ -413,7 +413,7 @@ export const contact = [
   {
     icon: <FiMapPin />,
     title: 'Current Location',
-    subtitle: 'Austin, Texas',
+    subtitle: 'Tampa, Florida',
     description: 'Serving clients worldwide',
   },
 ];
