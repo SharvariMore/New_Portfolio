@@ -34,6 +34,9 @@ import Project12 from "./assets/img/projects/colorchange_game.png";
 import Project13 from "./assets/img/projects/home_service.png";
 import Project14 from "./assets/img/projects/budget_planner.png";
 import Project15 from "./assets/img/projects/surveybull.png";
+import Project16 from "./assets/img/projects/aivora.png";
+import Project17 from "./assets/img/projects/finance_phrase_agent.png";
+import Project18 from "./assets/img/projects/therapist_agent.png";
 
 // skills images
 import SkillImg1 from "./assets/img/skills/html5.png";
@@ -271,6 +274,33 @@ export const projectsData = [
     description:
       "Survey Platform for designing various surveys using MVC Framework and Data Visualisation Charts",
   },
+  {
+    id: "16",
+    image: Project16,
+    name: "AI Creation Platform",
+    category: "AI development",
+    url: "https://aivora-ai-suite.vercel.app",
+    description:
+      "AI suite built with React and Gemini to generate content, edit images, remove backgrounds, and analyze resumes with smart insights",
+  },
+  {
+    id: "17",
+    image: Project17,
+    name: "Finance Phrase Extractor",
+    category: "AI development",
+    url: "https://github.com/SharvariMore/Finance-Phrase-Extractor",
+    description:
+      "Extracts financial phrases from text using Gemini with n8n automation, delivering real-time insights and analytics dashboard",
+  },
+  {
+    id: "18",
+    image: Project18,
+    name: "AI Therapist Agent",
+    category: "AI development",
+    url: "https://reflect-therapist-agent.vercel.app",
+    description:
+      "AI therapist platform offering real-time chat, mood tracking, and personalized insights powered by Gemini AI and JWT authentication",
+  },
 ];
 
 // projects
@@ -290,6 +320,9 @@ export const projectsNav = [
   {
     name: "gaming",
   },
+  {
+    name: "AI development"
+  }
 ];
 
 // skill
