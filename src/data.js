@@ -457,7 +457,7 @@ export const contact = [
   {
     icon: <FiMapPin />,
     title: "Current Location",
-    subtitle: "Tampa, Florida",
+    subtitle: "Boca Raton, Florida",
     description: "Serving clients worldwide",
   },
 ];
